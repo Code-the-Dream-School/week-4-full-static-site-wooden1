@@ -1,7 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
+body{
+  background-image: linear-gradient(to bottom, #f0f5d1, #dae6a7, #c1d77e, #a6c954, #88bb22);
+}
+.wrapper {
+
+  color: #051937;
+  font-family: 'Lato',Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin-top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 8em;
+  color: #00bf72;
+}
+
+.navbar {
+  background-color: #004d7a;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
 ul{
   list-style: none;
 }
-
+a{
+  font-size: 2em;
+  text-decoration: none;
+}
 .jumbotron{
   background: linear-gradient(0deg,#fff,transparent),
               url('https://placeimg.com/1000/500/tech') no-repeat center;
@@ -27,6 +70,13 @@ ul{
   width: 25px;
   height: 25px;
   border-radius: 50%;
+}
+
+img{
+  width:100%;
+}
+video{
+  background-color: #f0f5d1;
 }
 
 .instagram::after{
