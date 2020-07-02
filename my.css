@@ -8,14 +8,17 @@ body{
   background-image: linear-gradient(to bottom, #f0f5d1, #dae6a7, #c1d77e, #a6c954, #88bb22);
 }
 .wrapper {
-
+  display: flex;
+  flex-direction: column;
   color: #051937;
   font-family: 'Lato',Arial, Helvetica, sans-serif;
 }
 
+
+
 .container {
   width: 80%;
-  margin-top: 50%;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -28,18 +31,20 @@ h1 {
 .navbar {
   background-color: #004d7a;
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 1;
   margin: 0 auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
 }
 
 ul{
   list-style: none;
+}
+li{
+  padding:.2em;
 }
 a{
   font-size: 2em;
@@ -51,13 +56,13 @@ a{
   background-size:  cover;
 }
 
-.title-letter{
+/* .title-letter{
   	font-family: 'Megrim', cursive;
     font-weight: bold;
-}
+} */
 table{
   border: 1px solid #051937;
-  min-height: 20em;
+  min-height: 30em;
   margin:2rem auto;
   text-align: center;
 }
@@ -77,9 +82,6 @@ td{
 }
 :target, .highlight:hover{
   box-shadow: 0px 0px 10px 15px rgba(0,0,0, .4);
-}
-tfoot tr td{
-  /* text-align: center; */
 }
 
 
@@ -105,6 +107,7 @@ video{
 
 footer{
   text-align: center;
+  display: contents;
 }
 
 /* 

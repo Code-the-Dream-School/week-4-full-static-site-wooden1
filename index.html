@@ -12,21 +12,25 @@
   </head>
   <body>
     <div class="wrapper container-fluid">
+       <header id="home" class="jumbotron row mb-4">
+         <h1>Bubble Sort: Review</h1>
+       </header>
+
       <nav class="navbar">
         <ul class="navbar-links">
-          <li><a href="#one">one</a></li>
-          <li><a href="#two">two</a></li>
-          <li><a href="#three">three</a></li>
-        </ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#info">info</a></li>
+          <li><a href="#data">data</a></li>
+          <li><a href="#article">article</a></li>
+          <li><a href="#email">email</a></li>
+       </ul>
       </nav>
+       
       <main class="container">
-        <div id="one" class="jumbotron row mb-4">
-          <h1>Bubble Sort: Preview</h1>
-        </div>
-        <div class="row mb-4">
+                <div id="info" class="row mb-4">
           <video src="./media/bubble-sort.mov" height="360" width="100%" controls></video>
         </div>
-        <div class="row  mb-2">
+        <div id="data" class="row  mb-2">
           <table class="align-items-center">
             <thead>
               <tr>
@@ -50,21 +54,32 @@
             </tfoot>
           </table>
         </div>
+         <article id="article">
+           <h2>Title <span class="title-flair">Data</span>
+           </h2>
+           <img src="https://source.unsplash.com/random/640x480/?science" alt="">
+           <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ipsam, distinctio, blanditiis obcaecati
+             culpa
+             nostrum alias dolor asperiores libero ratione possimus ipsum veritatis maxime 
+           </p>
+         </article>
+        </section>
+      </main>
+
+      <footer class="mt-4">
+         <h3 class="social-media">
+           Stay in touch!
+         </h3>
         <form class="mt-2 mb-8">
           <div class="form-row align-items-center">
             <label for="email">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" aria-describedby="emailHelp">
           </div>
           <button type="submit" class="btn btn-primary btn-block">Submit</button>
-           <small> id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 
         </form>
-        </section>
-      </main>
-      <footer class="mt-4">
-        <h3 class="social-media">
-          Stay in touch!
-        </h3>
         <div class="social-media-contact">
           <a href="https://www.instagram.com" target="_blank" ><img src="./media/instagram.svg" alt="instagram"></a>
           <a href="https://www.facebook.com" target="_blank">
